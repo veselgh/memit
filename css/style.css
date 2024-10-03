@@ -41,6 +41,23 @@ body {
     font-size: 24px;
     font-weight: bold;
     color: #333;
+    margin-bottom: 10px;
+}
+
+.contact-button {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 18px;
+    color: white;
+    background-color: #007BFF;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+.contact-button:hover {
+    background-color: #0056b3;
 }
 
 /* Responsive design */
@@ -51,6 +68,10 @@ body {
     .centered-div p {
         font-size: 18px;
     }
+    .contact-button {
+        font-size: 16px;
+        padding: 8px 16px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -60,5 +81,8 @@ body {
     .centered-div p {
         font-size: 14px;
     }
+    .contact-button {
+        font-size: 14px;
+        padding: 6px 12px;
+    }
 }
-
